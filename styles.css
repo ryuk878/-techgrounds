@@ -41,7 +41,7 @@ body {
 }
 .h1m {
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
 }
 h1 {
   color: rgb(255, 255, 255);
@@ -50,12 +50,12 @@ h1 {
 }
 .p1 {
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   margin-top: 20px;
 }
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 40px;
 }
@@ -63,10 +63,11 @@ h1 {
 .pro {
   font-weight: bolder;
   border: 2px solid rgb(255, 255, 255);
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   padding-left: 30px;
   border-radius: 60px;
+  flex-wrap: wrap;
 
 }
 .center {
