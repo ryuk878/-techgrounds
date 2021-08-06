@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="watch">
+      <div class="outer"></div>
+      <div class="inner"><h1>SKMEI</h1></div>
+      <span class="time" id="display">00:00:00</span>
+
+      <div class="buttons">
+        <div class="start" ><p>START</p></div>
+
+        <div class="pause" onclick="stopTimer()"><p>PAUSE</p></div>
+        <div class="stop" onclick="resetTimer()"><p>STOP</p></div>
+      </div>
+    </div>
+
+
+    <script src="main.js"></script>
+    <script>
+        let start = document.querySelector(".start");
+        start.onclick = startTimer
+      </script>
+  </body>
+</html>
